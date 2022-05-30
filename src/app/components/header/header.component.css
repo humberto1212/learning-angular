@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 255, 0.192);
+    text-decoration: underline;
 }

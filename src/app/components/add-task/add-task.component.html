@@ -1,0 +1,25 @@
+<form class="form-style-ramen" (ngSubmit)="onSubmit()">
+    <div  class="form-style">
+        <label for="text"></label>
+        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add task"> 
+    </div>
+    <div class="form-style">
+        <label for="day"></label>
+        <input type="text" name="day" [(ngModel)]="day" id="day" placeholder="Add day of expiration"> 
+    </div>
+    <div class="form-style">
+        <label for="reminder">Add reminder: {{reminder}}</label>
+        <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder"> 
+    </div>
+
+  <app-button 
+ 
+    textcolor="white" 
+    size="25px" 
+    color="black" 
+    text="Add" 
+    type="submit">
+    
+    </app-button> 
+
+</form>

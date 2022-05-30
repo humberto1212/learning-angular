@@ -1,1 +1,8 @@
-<p>button works!</p>
+<button 
+(click)="onClick()"
+[ngStyle]="{'background-color': color, 'font-size': size, 'color': textcolor}" 
+class="btn"
+>
+    
+    {{ text }}
+</button>

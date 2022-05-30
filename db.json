@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "text": "go to the office",
+            "day": "12.05.2022",
+            "reminder": true
+        },
+        {
+            "id": 2,
+            "text": "TEst",
+            "day": "14.05.2022",
+            "reminder": false
+        },
+        {
+            "id": 3,
+            "text": "buy milk",
+            "day": "14.05.2022",
+            "reminder": false
+        },
+        {
+            "id": 4,
+            "text": "TEst2",
+            "day": "14.05.2022",
+            "reminder": false
+        },
+        {
+            "id": 5,
+            "text": "Test3",
+            "day": "14.05.2022",
+            "reminder": false
+        },
+        {
+            "id": 6,
+            "text": "do one more Angular tutorial",
+            "day": "20.05.2022",
+            "reminder": true
+        }
+    ]
+
+}
